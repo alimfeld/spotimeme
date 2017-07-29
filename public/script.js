@@ -8,7 +8,7 @@ $(document).ready(function() {
       const meme = memes[id];
       if (meme) {
         console.info(meme);
-        $('img').attr('src', meme.i);
+        $('img').attr('src', `memes/${meme.i}`);
         $('p.top').text(meme.tt);
         $('p.bottom').text(meme.tb);
         $('footer').text(`${meme.s}: ${track.track_resource.name} - ${track.artist_resource.name}`);
