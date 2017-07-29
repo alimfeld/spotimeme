@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  height: calc(100% - 32px);
+  color: white;
+  background-color: black;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  font: normal 18px Chalkduster;
+  padding: 5px;
+  height: 32px;
+  width: 100%;
+  color: black;
+  background-color: white;
+  border-top: 1px solid;
+}
+
+#meme {
+  position: relative;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+
+p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow:2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0px 2px 0 #000,
+  2px 0px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 2px 5px #000;
+}
+
+.bottom {
+   bottom: 0;
+ }
+
+.top {
+   top: 0;
+ }

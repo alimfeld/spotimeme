@@ -1,0 +1,11 @@
+{
+  "name": "spotimeme",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "spotify-web-helper": "1.10.0",
+    "express": "4.15.3",
+    "express-sse": "0.4.1"
+  }
+}
+
