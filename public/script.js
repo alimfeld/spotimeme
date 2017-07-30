@@ -17,7 +17,7 @@ $(document).ready(function() {
         $('img').attr('src', 'dummy.gif');
         $('p.top').text('');
         $('p.bottom').text('');
-        $('footer').text('');
+        $('footer').text(`${track.track_resource.name} - ${track.artist_resource.name}`);
       }
     };
   });
