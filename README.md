@@ -19,7 +19,7 @@ Spotify song.
 
 ```
 {
-  "<spotify track id>": {
+  "<spotify track uri>": {
     "s": "<subject>",
     "i": "<path to the image under memes>",
     "tt": "<text to display at the top of the image>",
@@ -29,11 +29,9 @@ Spotify song.
 }
 ```
 
-Replace the ```<spotify track id>``` with the actual track ID of the
-Spotify song. The track ID is part of the track URI, e.g. 'Lady In
-Black' (Uriah Heep) has a track URI
-```spotify:track:2U2ByqoO82fnayaPzO4x2d``` and the track ID therefore is
-```2U2ByqoO82fnayaPzO4x2d```.
+Replace the ```<spotify track id>``` with the actual track URI of the
+Spotify song, e.g. 'Lady In Black' (Uriah Heep) has a track URI
+```spotify:track:2U2ByqoO82fnayaPzO4x2d```.
 
 You can find the Spotify track URI of a song by e.g. using the Share
 functionality in Spotify. 
