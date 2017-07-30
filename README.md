@@ -29,12 +29,13 @@ Spotify song.
 }
 ```
 
-Replace the ```<spotify track id>``` with the actual track URI of the
+Replace the ```<spotify track uri>``` with the actual track URI of the
 Spotify song, e.g. 'Lady In Black' (Uriah Heep) has a track URI
 ```spotify:track:2U2ByqoO82fnayaPzO4x2d```.
 
 You can find the Spotify track URI of a song by e.g. using the Share
-functionality in Spotify. 
+functionality in Spotify or by checking the console output when playing
+songs in Spotify while spotimeme is running.
 
 # Run
 
