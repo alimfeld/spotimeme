@@ -39,7 +39,7 @@ songs in Spotify while spotimeme is running.
 
 # Run
 
-- Start Spotify
-- Run `node main.js`
-- Open `localhost:3000` in your Browser (tested in Chrome)
-- Play a song in Spotify you configured a meme for
+1. Start Spotify
+2. Run `node main.js`
+3. Open `localhost:3000` in your Browser (tested in Chrome)
+4. Play a song in Spotify you configured a meme for
