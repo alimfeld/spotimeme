@@ -8,7 +8,7 @@ body {
 }
 
 main {
-  height: calc(100% - 32px);
+  height: calc(100% - 5vh);
   color: white;
   background-color: black;
 }
@@ -16,13 +16,16 @@ main {
 footer {
   position: absolute;
   bottom: 0;
-  font: normal 18px Chalkduster;
-  padding: 5px;
-  height: 32px;
+  font: normal 3vh Chalkduster;
+  padding: .5vh 1vh;
+  height: 5vh;
   width: 100%;
   color: black;
   background-color: white;
   border-top: 1px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #meme {
@@ -41,12 +44,12 @@ p {
   position: absolute;
   left: 0;
   right: 0;
-  margin: 15px 0;
-  padding: 0 5px;
+  margin: 2vh 0;
+  padding: 0 1vh;
   font-family: impact;
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-shadow:2px 2px 0 #000,
+  text-shadow: 2px 2px 0 #000,
   -2px -2px 0 #000,
   2px -2px 0 #000,
   -2px 2px 0 #000,

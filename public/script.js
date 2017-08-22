@@ -34,7 +34,7 @@ const fillText = ($p, text) => {
   var s = 3;
   $span.css('font-size', `${s}vh`);
   $span.text(text);
-  while (s <= 10 && $span.width() < $p.width()) {
+  while (s < 9 && $span.width() < $p.width()) {
     s += 1;
     $span.css('font-size', `${s}vh`);
   }
