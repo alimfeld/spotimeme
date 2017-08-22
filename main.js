@@ -10,17 +10,21 @@ app.use(express.static('public'));
 app.use('/memes', express.static('memes'));
 app.get('/stream', sse.init);
 
+const send = (track) => {
+  console.log(track);
+  sse.send(track);
+  sse.updateInit(track);
+}
+
 helper.player.on('error', err => {
   console.log(err);
 });
 helper.player.on('ready', () => {
   helper.player.on('play', () => {
-    console.log(helper.status.track);
-    sse.send(helper.status.track);
+    send(helper.status.track);
   });
   helper.player.on('track-will-change', (track) => {
-    console.log(track);
-    sse.send(track);
+    send(track);
   });
 });
 
