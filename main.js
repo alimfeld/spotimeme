@@ -14,7 +14,7 @@ const send = (track) => {
   console.log(track);
   sse.send(track);
   sse.updateInit(track);
-}
+};
 
 helper.player.on('error', err => {
   console.log(err);
