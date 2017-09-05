@@ -20,6 +20,7 @@ helper.player.on('error', err => {
   console.log(err);
 });
 helper.player.on('ready', () => {
+  console.log("ready");
   helper.player.on('play', () => {
     send(helper.status.track);
   });
